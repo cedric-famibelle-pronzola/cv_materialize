@@ -77,9 +77,13 @@ h4
     width: 50%;
 }
 
-#imgsamnipoufe
+.imgproject
 {
     width: 100%;
 }
 
+iframe
+{
+    width: 100%;
+}
 
