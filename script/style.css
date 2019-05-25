@@ -68,19 +68,20 @@ h4
     max-width: 350px;
     min-width: 200px;
     margin: 10px;
-    margin-right: 30px;
+    margin-right:0px;
 }
 
 #project
 {
     margin-top:10px;
-    width: 50%;
+    width: 45%;
 }
 
 
 .imgproject
 {
     width: 95%;
+    padding-left: 4%;
 }
 
 iframe
@@ -88,3 +89,22 @@ iframe
     width: 100%;
 }
 
+.material-tooltip{
+    background-color: blue;
+  }
+
+/****
+    TABS PERSONALIZE
+***/
+
+.tabs .tab a{
+    color:#000;
+} /*Black color to the text*/
+
+.tabs .tab a:hover {
+    background-color: blue;
+    color:#000;
+} /*Text color on hover*/
+.tabs .indicator {
+    background-color:blue;
+} /*Color of underline*/
