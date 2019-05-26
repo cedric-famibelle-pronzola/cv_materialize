@@ -24,10 +24,6 @@ aside>img
     margin: auto;
 }
 
-#wrapper {
-    height: 64px;
-}
-
 #hidden
 {
     visibility: hidden;
