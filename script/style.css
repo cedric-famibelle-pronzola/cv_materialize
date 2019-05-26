@@ -74,7 +74,12 @@ h4
 #project
 {
     margin-top:10px;
-    width: 45%;
+}
+
+#tabs-swipe-demo
+{
+    display: flex;
+    justify-content: space-around;
 }
 
 
