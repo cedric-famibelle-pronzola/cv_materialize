@@ -3,5 +3,6 @@ $(document).ready(function(){
     $('.tabs').tabs();
     $('.modal').modal();
     $('.tooltipped').tooltip();
+    $('.sidenav').sidenav();
   });
-        
+

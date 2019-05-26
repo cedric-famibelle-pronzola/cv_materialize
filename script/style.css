@@ -19,9 +19,13 @@ aside
 
 aside>img
 {
-    width: 35%;
+    width: 150px;
     border: 3px groove rgb(1, 189, 126);
     margin: auto;
+}
+
+#wrapper {
+    height: 64px;
 }
 
 #hidden
@@ -32,6 +36,11 @@ aside>img
 .hidden
 {
     visibility: hidden;
+}
+
+nav
+{
+    background-color: blue;
 }
 
 h1, h2, h3, h5
@@ -45,13 +54,17 @@ h4
     color: red;
 }
 
+#fontIcons
+{
+    display: flex;
+    justify-content: space-around;
+}
+
 
 
 #xp
 {
     margin-top: 10px;
-    width: 70%;
-    min-width: 100px;
 
 }
 
@@ -64,11 +77,8 @@ h4
 {
     background-color: rgb(16, 106, 240);
     border: 1px solid black;
-    padding: 5px;
-    max-width: 350px;
-    min-width: 200px;
-    margin: 10px;
-    margin-right:0px;
+    padding-left: 5px;
+    margin-bottom: 10px;
 }
 
 #project
