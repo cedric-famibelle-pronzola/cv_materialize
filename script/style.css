@@ -38,10 +38,6 @@ aside>img
     visibility: hidden;
 }
 
-nav
-{
-    background-color: blue;
-}
 
 h1, h2, h3, h5
 {
@@ -58,9 +54,8 @@ h4
 {
     display: flex;
     justify-content: space-around;
+    flex-wrap : wrap
 }
-
-
 
 #xp
 {
