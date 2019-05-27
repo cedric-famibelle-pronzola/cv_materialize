@@ -16,13 +16,6 @@ body
 }
 
 
-header
-{
-    text-align: center;
-    min-width: 10px;
-}
-
-
 #hidden
 {
     visibility: hidden;
@@ -31,8 +24,9 @@ header
 .hidden
 {
     visibility: hidden;
+    line-height: 0px;
+    font-size: 0px;
 }
-
 
 h1, h2, h3, h5
 {
@@ -50,11 +44,6 @@ h5
     font-family: 'Concert One', cursive;
 }
 
-h4
-{
-    color: red;
-}
-
 #fontIcons
 {
     display: flex;
@@ -64,26 +53,15 @@ h4
 
 #xp
 {
-    margin-top: 10px;
-
+    margin-left: 10px;
 }
 
-#coll
-{
-   margin-top:10px; 
-}
-
-#left
+header
 {
     background-color: rgb(16, 106, 240);
     border: 1px solid black;
-    margin-bottom: 10px;
 }
 
-#project
-{
-    margin-top:10px;
-}
 
 #tabs-swipe-demo
 {
@@ -100,8 +78,16 @@ h4
 
 iframe
 {
-    width: 100%;
+    width: 600px;
+    height: 380px;
+    border:none;
 }
+
+.modal-content
+{
+    text-align: center;
+}
+
 
 .material-tooltip{
     background-color: blue;
@@ -120,5 +106,5 @@ iframe
     color:#000;
 } /*Text color on hover*/
 .tabs .indicator {
-    background-color:blue;
+    background-color:yellow;
 } /*Color of underline*/

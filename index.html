@@ -12,139 +12,113 @@
         <link rel="stylesheet" type="text/css" media="screen" href="./script/style.css" />
     </head>
     <body>
-         <header>
-            <span id="acc"></span>
-            <!-- <h3>Cédric FAMIBELLE-PRONZOLA</h3> -->
+        <header>
+            <h3>Cédric FAMIBELLE-PRONZOLA</h3>
+                <span id="coordonnees"></span>
+                <h6 class="hidden">Contact - Projets</h6>
+                <div id="fontIcons">
+                    <p class="enveloppe">
+                        <a href="mailto:contact@cedric-famibelle.fr"><i data-position="top" data-tooltip="Envoyer un email" class="fas fa-envelope fa-5x white-text tooltipped col s12"></i></a>
+                    </p>
+                    <p class="linkedin">
+                        <a href="https://www.linkedin.com/in/cedric-famibelle-pronzola/" target="_blank" ><i data-position="top" data-tooltip="LinkedIn" class="fab fa-linkedin fa-5x white-text tooltipped col s12"></i></a>
+                    </p>
+                    <p class="gitlab">
+                        <a href="https://gitlab.com/cedric_famibelle" target="_blank" ><i data-position="top" data-tooltip="GitLab" class="fab fa-gitlab fa-5x white-text tooltipped col s12"></i></a>
+                    </p>
+                    <p class="github">
+                        <a href="https://github.com/cedric-famibelle" target="_blank" ><i data-position="top" data-tooltip="GitHub" class="fab fa-github-square fa-5x white-text tooltipped col s12"></i></a>
+                    </p>
+                </div>
         </header>
-            <article id="left">
-                <h3>Cédric FAMIBELLE-PRONZOLA</h3>
-                <span id="presentation"></span>
-                <section id="contact">
-                    <span id="coordonnees"></span>
-                    <h6 class="hidden">Contact - Projets</h6>
-                    <div id="fontIcons">
-                        <p class="enveloppe">
-                            <a href="mailto:contact@cedric-famibelle.fr"><i data-position="top" data-tooltip="Envoyer un email" class="fas fa-envelope fa-5x white-text tooltipped col s12"></i></a>
-                        </p>
-                        <p class="linkedin">
-                            <a href="https://www.linkedin.com/in/cedric-famibelle-pronzola/" target="_blank" ><i data-position="top" data-tooltip="LinkedIn" class="fab fa-linkedin fa-5x white-text tooltipped col s12"></i></a>
-                        </p>
-                        <p class="gitlab">
-                            <a href="https://gitlab.com/cedric_famibelle" target="_blank" ><i data-position="top" data-tooltip="GitLab" class="fab fa-gitlab fa-5x white-text tooltipped col s12"></i></a>
-                        </p>
-                        <p class="github">
-                            <a href="https://github.com/cedric-famibelle" target="_blank" ><i data-position="top" data-tooltip="GitHub" class="fab fa-github-square fa-5x white-text tooltipped col s12"></i></a>
-                        </p>
+        <article>
+            <h6 class="hidden">Projets</h6>
+            <section>
+                <h3>Projets</h3>
+                <ul id="tabs-swipe-demo" class="tabs blue center">
+                    <li class="tab"><a class="white-text hoverable" href="#samnipoufe">Samnipoufè</a></li>
+                    <li class="tab"><a class="hoverable white-text" href="#booksifa">BookS'IFA</a></li>
+                    <li class="tab"><a class="hoverable white-text" href="#spaceshiphunt">SpaceShip Hunt</a></li>
+                    <li class="tab"><a class="hoverable white-text" href="#htmlcss">HTML - CSS</a></li>
+                </ul>
+                <div id="samnipoufe" class="black">
+                <div class="row"></div>
+                    <h5 class="center-align">"Samnipoufè" <i class="blue-text fas fa-chevron-circle-right"></i>  Création d'une todo list avec Angular 7</h5>
+                    <div class="container">
+                        <h5 class="left"><a class="hoverable tooltipped" data-position="top" data-tooltip="GitLab" target="_blank" href="https://gitlab.com/cedric_famibelle/angular-todo-list">Dev Version</a> <span class="blue-text"> | </span><a class="hoverable tooltipped" data-position="top" data-tooltip="GitLab" target="_blank" href="https://gitlab.com/cedric_famibelle/samnipoufe">Test Version</a></h5>
+                        <h5 class="right"><a class="hoverable" target="_blank" href="http://www.cedric-famibelle.fr/samnipoufe">Démonstration</a></h5>
                     </div>
-                </section>
-            </article>
-            <article id="project">
-                <section>
-                    <ul id="tabs-swipe-demo" class="tabs blue center">
-                        <li class="tab"><a class="white-text hoverable" href="#samnipoufe">Samnipoufè</a></li>
-                        <li class="tab"><a class="hoverable white-text" href="#booksifa">BookS'IFA</a></li>
-                        <li class="tab"><a class="hoverable white-text" href="#spaceshiphunt">SpaceShip Hunt</a></li>
-                        <li class="tab"><a class="hoverable white-text" href="#htmlcss">HTML - CSS</a></li>
-                    </ul>
-                    <div id="samnipoufe" class="black">
+                    <div class="container">
+                        <a class="modal-trigger tooltipped" data-position="top" data-tooltip="Cliquez pour voir la vidéo" href="#modal1"><img class="imgproject" src="./gif/samnipoufe.gif" alt=""></a>
+                    </div>
+                </div>
+                <div id="booksifa" class="black">
+                        <div class="row"></div>
+                    <h5 class="center-align">"Books'IFA" <i class="blue-text fas fa-chevron-circle-right"></i> Création d'un site de vente en ligne en PHP et JavaScript</h5>
+                    <div class="container">
+                        <h5 class="left"><a class="hoverable red-text" target="_blank" href="https://gitlab.com/cedric_famibelle/">Bientôt disponible sur GitLab</a> </h5>
+                        <h5 class="right"><a class="hoverable" target="_blank" href="http://www.cedric-famibelle.fr/librairie-poo">Démonstration</a></h5>
+                    </div>
+                    <div class="container">
+                    <a class="modal-trigger tooltipped" data-position="top" data-tooltip="Cliquez pour voir la vidéo" href="#modal2"><img class="imgproject" src="./gif/booksifa.gif" alt=""></a>
+                    </div>
+                </div>
+                <div id="spaceshiphunt" class="black">
                     <div class="row"></div>
-                       <h5 class="center-align">"Samnipoufè" <i class="blue-text fas fa-chevron-circle-right"></i>  Création d'une todo list avec Angular 7</h5>
-                       <div class="container">
-                            <h5 class="left"><a class="hoverable tooltipped" data-position="top" data-tooltip="GitLab" target="_blank" href="https://gitlab.com/cedric_famibelle/angular-todo-list">Dev Version</a> <span class="blue-text"> | </span><a class="hoverable tooltipped" data-position="top" data-tooltip="GitLab" target="_blank" href="https://gitlab.com/cedric_famibelle/samnipoufe">Test Version</a></h5>
-                            <h5 class="right"><a class="hoverable" target="_blank" href="http://www.cedric-famibelle.fr/samnipoufe">Démonstration</a></h5>
-                        </div>
-                        <div class="container">
-                            <a class="modal-trigger tooltipped" data-position="top" data-tooltip="Cliquez pour voir la vidéo" href="#modal1"><img class="imgproject" src="./gif/samnipoufe.gif" alt=""></a>
-                        </div>
+                    <h5 class="center-align">"SpaceShip Hunt" <i class="blue-text fas fa-chevron-circle-right"></i> Reproduction de Duck Hunt en JavaScript</h5>
+                    <div class="container">
+                        <h5 class="left"><a target="_blank" class="hoverable" href="https://gitlab.com/cedric_famibelle/spaceship-hunt">Disponible sur GitLab</a> </h5>
+                        <h5 class="right"><a target="_blank" class="hoverable" href="http://www.cedric-famibelle.fr/spaceship-hunt">Démonstration</a></h5>
                     </div>
-                    <div id="booksifa" class="black">
-                            <div class="row"></div>
-                        <h5 class="center-align">"Books'IFA" <i class="blue-text fas fa-chevron-circle-right"></i> Création d'un site de vente en ligne en PHP et JavaScript</h5>
-                        <div class="container">
-                            <h5 class="left"><a class="hoverable red-text" target="_blank" href="https://gitlab.com/cedric_famibelle/">Bientôt disponible sur GitLab</a> </h5>
-                            <h5 class="right"><a class="hoverable" target="_blank" href="http://www.cedric-famibelle.fr/librairie-poo">Démonstration</a></h5>
-                        </div>
-                        <div class="container">
-                        <a class="modal-trigger tooltipped" data-position="top" data-tooltip="Cliquez pour voir la vidéo" href="#modal2"><img class="imgproject" src="./gif/booksifa.gif" alt=""></a>
-                        </div>
+                    <div class="container">
+                    <a class="modal-trigger tooltipped" data-position="top" data-tooltip="Cliquez pour voir la vidéo" href="#modal3"><img class="imgproject" src="./gif/space.gif" alt=""></a>
                     </div>
-                    <div id="spaceshiphunt" class="black">
-                        <div class="row"></div>
-                        <h5 class="center-align">"SpaceShip Hunt" <i class="blue-text fas fa-chevron-circle-right"></i> Reproduction de Duck Hunt en JavaScript</h5>
-                        <div class="container">
-                            <h5 class="left"><a target="_blank" class="hoverable" href="https://gitlab.com/cedric_famibelle/spaceship-hunt">Disponible sur GitLab</a> </h5>
-                            <h5 class="right"><a target="_blank" class="hoverable" href="http://www.cedric-famibelle.fr/spaceship-hunt">Démonstration</a></h5>
-                        </div>
-                        <div class="container">
-                        <a class="modal-trigger tooltipped" data-position="top" data-tooltip="Cliquez pour voir la vidéo" href="#modal3"><img class="imgproject" src="./gif/space.gif" alt=""></a>
-                        </div>
+                </div>
+                <div id="htmlcss" class="black">
+                    <div class="row"></div>
+                    <h5 class="center-align">HTML5 et CSS3</h5>
+                    <div class="container">
+                        <h5 class="left"><a target="_blank" class="hoverable" href="https://github.com/cedric-famibelle/html_css">Disponible sur GitHub</a> </h5>
+                        <h5 class="right"><a target="_blank" class="hoverable" href="http://cedric-famibelle.fr/ifa_html">Démonstration</a></h5>
                     </div>
-                    <div id="htmlcss" class="black">
-                        <div class="row"></div>
-                        <h5 class="center-align">HTML5 et CSS3</h5>
-                        <div class="container">
-                            <h5 class="left"><a target="_blank" class="hoverable" href="https://github.com/cedric-famibelle/html_css">Disponible sur GitHub</a> </h5>
-                            <h5 class="right"><a target="_blank" class="hoverable" href="http://cedric-famibelle.fr/ifa_html">Démonstration</a></h5>
-                        </div>
-                        <div class="container">
-                            <a class="modal-trigger tooltipped" data-position="top" data-tooltip="Cliquez pour voir la vidéo" href="#modal4"><img class="imgproject" src="./gif/html-css.gif" alt=""></a>
-                        </div>
+                    <div class="container">
+                        <a class="modal-trigger tooltipped" data-position="top" data-tooltip="Cliquez pour voir la vidéo" href="#modal4"><img class="imgproject" src="./gif/html-css.gif" alt=""></a>
                     </div>
-                </section>
-                <section>
-                    <div id="modal1" class="modal grey grey darken-3">
-                        <div class="modal-content">
-                            <div class="">
-                                <iframe src="https://player.vimeo.com/video/338239583" 
-                                width="600" height="400" 
-                                frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-                            </div>
-                            <div class="">
-                                <a href="#!" data-position="bottom" data-tooltip="Fermer" class="red modal-close modal-footer waves-effect waves-green btn-floating tooltipped"><i class="material-icons">close</i></a>
-                            </div>
-                        </div>
+                </div>
+            </section>
+            <section>
+                <h6 class="hidden">Vidéos</h6>
+                <div id="modal1" class="modal grey grey darken-3">
+                    <div class="modal-content">
+                        <iframe src="https://player.vimeo.com/video/338239583" 
+                        allow="autoplay; fullscreen" allowfullscreen></iframe>
+                        <a href="#!" data-position="bottom" data-tooltip="Fermer" class="red modal-close modal-footer waves-effect waves-green btn-floating tooltipped"><i class="material-icons">close</i></a>
                     </div>
-                    <div id="modal2" class="modal grey grey darken-3">
-                        <div class="modal-content">
-                            <div class="">
-                                <iframe src="https://player.vimeo.com/video/338274928" 
-                                width="600" height="400" 
-                                frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-                            </div>
-                            <div class="">
-                                <a href="#!" data-position="bottom" data-tooltip="Fermer" class="red modal-close modal-footer waves-effect waves-green btn-floating tooltipped"><i class="material-icons">close</i></a>
-                            </div>
-                        </div>
+                </div>
+                <div id="modal2" class="modal grey grey darken-3">
+                    <div class="modal-content">
+                        <iframe src="https://player.vimeo.com/video/338274928" 
+                        allow="autoplay; fullscreen" allowfullscreen></iframe>
+                        <a href="#!" data-position="bottom" data-tooltip="Fermer" class="red modal-close modal-footer waves-effect waves-green btn-floating tooltipped"><i class="material-icons">close</i></a>
                     </div>
-
-                    <div id="modal3" class="modal grey grey darken-3">
-                        <div class="modal-content">
-                            <div class="">
-                                <iframe src="https://player.vimeo.com/video/338273164" 
-                                width="600" height="400" 
-                                frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-                            </div>
-                            <div class="">
-                                <a href="#!" data-position="bottom" data-tooltip="Fermer" class="red modal-close modal-footer waves-effect waves-green btn-floating tooltipped"><i class="material-icons">close</i></a>
-                            </div>
-                        </div>
+                </div>
+                <div id="modal3" class="modal grey grey darken-3">
+                    <div class="modal-content">
+                        <iframe src="https://player.vimeo.com/video/338273164" 
+                        allow="autoplay; fullscreen" allowfullscreen></iframe>
+                        <a href="#!" data-position="bottom" data-tooltip="Fermer" class="red modal-close modal-footer waves-effect waves-green btn-floating tooltipped"><i class="material-icons">close</i></a>
                     </div>
-                    <div id="modal4" class="modal grey grey darken-3">
-                        <div class="modal-content">
-                            <div class="">
-                                <iframe src="https://player.vimeo.com/video/338409678" 
-                                width="600" height="400" 
-                                frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-                            </div>
-                            <div class="">
-                                <a href="#!" data-position="bottom" data-tooltip="Fermer" class="red modal-close modal-footer waves-effect waves-green btn-floating tooltipped"><i class="material-icons">close</i></a>
-                            </div>
-                        </div>
+                </div>
+                <div id="modal4" class="modal grey grey darken-3">
+                    <div class="modal-content">
+                        <iframe src="https://player.vimeo.com/video/338409678" 
+                        allow="autoplay; fullscreen" allowfullscreen></iframe>
+                        <a href="#!" data-position="bottom" data-tooltip="Fermer" class="red modal-close modal-footer waves-effect waves-green btn-floating tooltipped"><i class="material-icons">close</i></a>
                     </div>
-                </section>
-            </article>
-            <section id="coll">
-            <h6 class="hidden">Savoir faire</h6>
+                </div>
+            </section>
+            <section>
+            <h3>Aptitudes</h3>
             <ul class="collapsible" data-collapsible="expandable">
                 <li class="active">
                     <div class="collapsible-header blue white-text"><i class="material-icons">work</i>Compétences</div>
@@ -196,59 +170,58 @@
                     </li>
                 </ul>
             </section>
-            <div class="row">
-                <section class="col s12" id="xp">
-                    <h4>Expériences</h4>
-                    <table class="highlight responsive-table">
-                        <thead>
-                            <tr>
-                                <th>Début</th>
-                                <th>Fin</th>
-                                <th>Poste</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Novembre 2018</td>
-                                <td>Novembre 2018</td>
-                                <td>Développeur WEB</td>
-                            </tr>
-                            <tr>
-                                <td>Juin 2015</td>
-                                <td>Décembre 2017</td>
-                                <td>Conseiller clientèle Armatis (Engie Professionnels)</td>
-                            </tr>
-                            <tr>
-                                <td>Septembre 2013</td>
-                                <td>Mars 2014</td>
-                                <td>Conseiller clientèle Acticall (Engie Particuliers)</td>
-                            </tr>
-                            <tr>
-                                <td>Octobre 2012</td>
-                                <td>Avril 2013</td>
-                                <td>Conseiller clientèle Arvato (SFR)</td>
-                            </tr>
-                            <tr>
-                                <td>Septembre 2011</td>
-                                <td> Mars 2012</td>
-                                <td> Conseiller clientèle CCA (Orange Mobile)</td>
-                            </tr>
-                            <tr>
-                                <td>Août 2009</td>
-                                <td>Octobre 2010</td>
-                                <td>Conseiller clientèle Orange</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </section>
+            <section class="col s12" id="xp">
+                <h3 class="center-align">Expériences</h3>
+                <table class="highlight responsive-table centered">
+                    <thead>
+                        <tr>
+                            <th>Début</th>
+                            <th>Fin</th>
+                            <th>Poste</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Novembre 2018</td>
+                            <td>Novembre 2018</td>
+                            <td>Développeur WEB</td>
+                        </tr>
+                        <tr>
+                            <td>Juin 2015</td>
+                            <td>Décembre 2017</td>
+                            <td>Conseiller clientèle Armatis (Engie Professionnels)</td>
+                        </tr>
+                        <tr>
+                            <td>Septembre 2013</td>
+                            <td>Mars 2014</td>
+                            <td>Conseiller clientèle Acticall (Engie Particuliers)</td>
+                        </tr>
+                        <tr>
+                            <td>Octobre 2012</td>
+                            <td>Avril 2013</td>
+                            <td>Conseiller clientèle Arvato (SFR)</td>
+                        </tr>
+                        <tr>
+                            <td>Septembre 2011</td>
+                            <td> Mars 2012</td>
+                            <td> Conseiller clientèle CCA (Orange Mobile)</td>
+                        </tr>
+                        <tr>
+                            <td>Août 2009</td>
+                            <td>Octobre 2010</td>
+                            <td>Conseiller clientèle Orange</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </article>
+        <footer class="page-footer blue darken-4">
+        <div class="footer-copyright">
+            <div class="container">
+                <a class="grey-text text-lighten-4 left" href="mailto:contact@cedric-famibelle.fr">Cédric FAMIBELLE-PRONZOLA</a>
+                <a class="grey-text text-lighten-4 right" href="mailto:contact@cedric-famibelle.fr">contact@cedric-famibelle.fr</a>
             </div>
-            <footer class="page-footer blue darken-4">
-            <div class="footer-copyright">
-                <div class="container">
-                    <a class="grey-text text-lighten-4 left" href="mailto:contact@cedric-famibelle.fr">Cédric FAMIBELLE-PRONZOLA</a>
-                    <a class="grey-text text-lighten-4 right" href="mailto:contact@cedric-famibelle.fr">contact@cedric-famibelle.fr</a>
-                </div>
-            </div>
+        </div>
         </footer>
         <script src="./script/jquery-3.3.1.min.js"></script>
         <script src="./script/main.js"></script>
